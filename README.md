@@ -2,7 +2,7 @@
 
 [![pub package](https://img.shields.io/pub/v/google_fonts_cyrillic_ext_full.svg)](https://pub.dev/packages/google_fonts_cyrillic_ext_full)
 
-Cyrillic Extended fonts by Google right into your Flutter application. Contains only regular styles of fonts. Taken from [Google Fonts](https://fonts.google.com/)
+Cyrillic Extended fonts by Google right into your Flutter application. Contains all available styles of fonts. Taken from [Google Fonts](https://fonts.google.com/)
 
 ## Usage
 
