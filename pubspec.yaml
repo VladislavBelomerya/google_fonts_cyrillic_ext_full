@@ -1,0 +1,1298 @@
+name: google_fonts_cyrillic_ext_full
+description: Cyrillic Extended fonts by google right into your Flutter application. Contains all available styles of fonts. Taken from https://fonts.google.com.
+version: 1.0.0
+author: Vladislav Belomerya <belomerya.vladislav@gmail.com>
+homepage: https://github.com/VladislavBelomerya/google_fonts_cyrillic_ext_full
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # To add assets to your package, add an assets section, like this:
+  # assets:
+  #  - images/a_dot_burr.jpeg
+  #  - images/a_dot_ham.jpeg
+  #
+  # For details regarding assets in packages, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  #
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # To add custom fonts to your package, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts in packages, see
+  # https://flutter.dev/custom-fonts/#from-packages
+
+  fonts:
+    - family: Alegreya
+      fonts:
+        - asset: lib/fonts/Alegreya/Alegreya-Black.ttf
+          weight: 900
+        - asset: lib/fonts/Alegreya/Alegreya-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: lib/fonts/Alegreya/Alegreya-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Alegreya/Alegreya-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Alegreya/Alegreya-ExtraBold.ttf
+          weight: 800
+        - asset: lib/fonts/Alegreya/Alegreya-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: lib/fonts/Alegreya/Alegreya-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Alegreya/Alegreya-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: lib/fonts/Alegreya/Alegreya-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Alegreya/Alegreya-RegularItalic.ttf
+          weight: 400
+          style: italic
+    - family: AlegreyaSans
+      fonts:
+        - asset: lib/fonts/Alegreya_Sans/AlegreyaSans-Black.ttf
+          weight: 900
+        - asset: lib/fonts/Alegreya_Sans/AlegreyaSans-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: lib/fonts/Alegreya_Sans/AlegreyaSans-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Alegreya_Sans/AlegreyaSans-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Alegreya_Sans/AlegreyaSans-ExtraBold.ttf
+          weight: 800
+        - asset: lib/fonts/Alegreya_Sans/AlegreyaSans-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: lib/fonts/Alegreya_Sans/AlegreyaSans-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Alegreya_Sans/AlegreyaSans-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: lib/fonts/Alegreya_Sans/AlegreyaSans-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Alegreya_Sans/AlegreyaSans-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: lib/fonts/Alegreya_Sans/AlegreyaSans-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Alegreya_Sans/AlegreyaSans-RegularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: lib/fonts/Alegreya_Sans/AlegreyaSans-Thin.ttf
+          weight: 100
+        - asset: lib/fonts/Alegreya_Sans/AlegreyaSans-ThinItalic.ttf
+          weight: 100
+          style: italic
+    - family: AlegreyaSansSC
+      fonts:
+        - asset: lib/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Black.ttf
+          weight: 900
+        - asset: lib/fonts/Alegreya_Sans_SC/AlegreyaSansSC-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: lib/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Alegreya_Sans_SC/AlegreyaSansSC-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Alegreya_Sans_SC/AlegreyaSansSC-ExtraBold.ttf
+          weight: 800
+        - asset: lib/fonts/Alegreya_Sans_SC/AlegreyaSansSC-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: lib/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Alegreya_Sans_SC/AlegreyaSansSC-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: lib/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Alegreya_Sans_SC/AlegreyaSansSC-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: lib/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Alegreya_Sans_SC/AlegreyaSansSC-RegularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: lib/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Thin.ttf
+          weight: 100
+        - asset: lib/fonts/Alegreya_Sans_SC/AlegreyaSansSC-ThinItalic.ttf
+          weight: 100
+          style: italic
+    - family: AlegreyaSC
+      fonts:
+        - asset: lib/fonts/Alegreya_SC/AlegreyaSC-Black.ttf
+          weight: 900
+        - asset: lib/fonts/Alegreya_SC/AlegreyaSC-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: lib/fonts/Alegreya_SC/AlegreyaSC-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Alegreya_SC/AlegreyaSC-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Alegreya_SC/AlegreyaSC-ExtraBold.ttf
+          weight: 800
+        - asset: lib/fonts/Alegreya_SC/AlegreyaSC-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: lib/fonts/Alegreya_SC/AlegreyaSC-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Alegreya_SC/AlegreyaSC-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: lib/fonts/Alegreya_SC/AlegreyaSC-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Alegreya_SC/AlegreyaSC-RegularItalic.ttf
+          weight: 400
+          style: italic
+    - family: Alice
+      fonts:
+        - asset: lib/fonts/Alice/Alice-Regular.ttf
+          weight: 400
+    - family: Andika
+      fonts:
+        - asset: lib/fonts/Andika/Andika-Regular.ttf
+          weight: 400
+    - family: Arimo
+      fonts:
+        - asset: lib/fonts/Arimo/Arimo-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Arimo/Arimo-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Arimo/Arimo-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Arimo/Arimo-RegularItalic.ttf
+          weight: 400
+          style: italic
+    - family: Arsenal
+      fonts:
+        - asset: lib/fonts/Arsenal/Arsenal-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Arsenal/Arsenal-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Arsenal/Arsenal-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Arsenal/Arsenal-RegularItalic.ttf
+          weight: 400
+          style: italic
+    - family: Caveat
+      fonts:
+        - asset: lib/fonts/Caveat/Caveat-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Caveat/Caveat-Regular.ttf
+          weight: 400
+    - family: Comfortaa
+      fonts:
+        - asset: lib/fonts/Comfortaa/Comfortaa-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Comfortaa/Comfortaa-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Comfortaa/Comfortaa-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Comfortaa/Comfortaa-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Comfortaa/Comfortaa-SemiBold.ttf
+          weight: 600
+    - family: Cormorant
+      fonts:
+        - asset: lib/fonts/Cormorant/Cormorant-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Cormorant/Cormorant-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Cormorant/Cormorant-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Cormorant/Cormorant-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: lib/fonts/Cormorant/Cormorant-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Cormorant/Cormorant-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: lib/fonts/Cormorant/Cormorant-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Cormorant/Cormorant-RegularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: lib/fonts/Cormorant/Cormorant-SemiBold.ttf
+          weight: 600
+        - asset: lib/fonts/Cormorant/Cormorant-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+    - family: CormorantGaramond
+      fonts:
+        - asset: lib/fonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Cormorant_Garamond/CormorantGaramond-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Cormorant_Garamond/CormorantGaramond-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Cormorant_Garamond/CormorantGaramond-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: lib/fonts/Cormorant_Garamond/CormorantGaramond-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Cormorant_Garamond/CormorantGaramond-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: lib/fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Cormorant_Garamond/CormorantGaramond-RegularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: lib/fonts/Cormorant_Garamond/CormorantGaramond-SemiBold.ttf
+          weight: 600
+        - asset: lib/fonts/Cormorant_Garamond/CormorantGaramond-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+    - family: CormorantInfant
+      fonts:
+        - asset: lib/fonts/Cormorant_Infant/CormorantInfant-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Cormorant_Infant/CormorantInfant-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Cormorant_Infant/CormorantInfant-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Cormorant_Infant/CormorantInfant-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: lib/fonts/Cormorant_Infant/CormorantInfant-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Cormorant_Infant/CormorantInfant-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: lib/fonts/Cormorant_Infant/CormorantInfant-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Cormorant_Infant/CormorantInfant-RegularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: lib/fonts/Cormorant_Infant/CormorantInfant-SemiBold.ttf
+          weight: 600
+        - asset: lib/fonts/Cormorant_Infant/CormorantInfant-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+    - family: CormorantSC
+      fonts:
+        - asset: lib/fonts/Cormorant_SC/CormorantSC-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Cormorant_SC/CormorantSC-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Cormorant_SC/CormorantSC-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Cormorant_SC/CormorantSC-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Cormorant_SC/CormorantSC-SemiBold.ttf
+          weight: 600
+    - family: CormorantUnicase
+      fonts:
+        - asset: lib/fonts/Cormorant_Unicase/CormorantUnicase-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Cormorant_Unicase/CormorantUnicase-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Cormorant_Unicase/CormorantUnicase-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Cormorant_Unicase/CormorantUnicase-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Cormorant_Unicase/CormorantUnicase-SemiBold.ttf
+          weight: 600
+    - family: Cousine
+      fonts:
+        - asset: lib/fonts/Cousine/Cousine-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Cousine/Cousine-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Cousine/Cousine-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Cousine/Cousine-RegularItalic.ttf
+          weight: 400
+          style: italic
+    - family: Cuprum
+      fonts:
+        - asset: lib/fonts/Cuprum/Cuprum-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Cuprum/Cuprum-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Cuprum/Cuprum-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Cuprum/Cuprum-RegularItalic.ttf
+          weight: 400
+          style: italic
+    - family: DidactGothic
+      fonts:
+        - asset: lib/fonts/Didact_Gothic/DidactGothic-Regular.ttf
+          weight: 400
+    - family: EBGaramond
+      fonts:
+        - asset: lib/fonts/EB_Garamond/EBGaramond-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/EB_Garamond/EBGaramond-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/EB_Garamond/EBGaramond-ExtraBold.ttf
+          weight: 800
+        - asset: lib/fonts/EB_Garamond/EBGaramond-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: lib/fonts/EB_Garamond/EBGaramond-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/EB_Garamond/EBGaramond-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: lib/fonts/EB_Garamond/EBGaramond-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/EB_Garamond/EBGaramond-RegularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: lib/fonts/EB_Garamond/EBGaramond-SemiBold.ttf
+          weight: 600
+        - asset: lib/fonts/EB_Garamond/EBGaramond-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+    - family: FiraCode
+      fonts:
+        - asset: lib/fonts/Fira_Code/FiraCode-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Fira_Code/FiraCode-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Fira_Code/FiraCode-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Fira_Code/FiraCode-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Fira_Code/FiraCode-SemiBold.ttf
+          weight: 600
+    - family: FiraMono
+      fonts:
+        - asset: lib/fonts/Fira_Mono/FiraMono-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Fira_Mono/FiraMono-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Fira_Mono/FiraMono-Regular.ttf
+          weight: 400
+    - family: FiraSans
+      fonts:
+        - asset: lib/fonts/Fira_Sans/FiraSans-Black.ttf
+          weight: 900
+        - asset: lib/fonts/Fira_Sans/FiraSans-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: lib/fonts/Fira_Sans/FiraSans-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Fira_Sans/FiraSans-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Fira_Sans/FiraSans-ExtraBold.ttf
+          weight: 800
+        - asset: lib/fonts/Fira_Sans/FiraSans-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: lib/fonts/Fira_Sans/FiraSans-ExtraLight.ttf
+          weight: 200
+        - asset: lib/fonts/Fira_Sans/FiraSans-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: lib/fonts/Fira_Sans/FiraSans-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Fira_Sans/FiraSans-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: lib/fonts/Fira_Sans/FiraSans-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Fira_Sans/FiraSans-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: lib/fonts/Fira_Sans/FiraSans-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Fira_Sans/FiraSans-RegularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: lib/fonts/Fira_Sans/FiraSans-SemiBold.ttf
+          weight: 600
+        - asset: lib/fonts/Fira_Sans/FiraSans-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: lib/fonts/Fira_Sans/FiraSans-Thin.ttf
+          weight: 100
+        - asset: lib/fonts/Fira_Sans/FiraSans-ThinItalic.ttf
+          weight: 100
+          style: italic
+    - family: FiraSansCondensed
+      fonts:
+        - asset: lib/fonts/Fira_Sans_Condensed/FiraSansCondensed-Black.ttf
+          weight: 900
+        - asset: lib/fonts/Fira_Sans_Condensed/FiraSansCondensed-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: lib/fonts/Fira_Sans_Condensed/FiraSansCondensed-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Fira_Sans_Condensed/FiraSansCondensed-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Fira_Sans_Condensed/FiraSansCondensed-ExtraBold.ttf
+          weight: 800
+        - asset: lib/fonts/Fira_Sans_Condensed/FiraSansCondensed-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: lib/fonts/Fira_Sans_Condensed/FiraSansCondensed-ExtraLight.ttf
+          weight: 200
+        - asset: lib/fonts/Fira_Sans_Condensed/FiraSansCondensed-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: lib/fonts/Fira_Sans_Condensed/FiraSansCondensed-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Fira_Sans_Condensed/FiraSansCondensed-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: lib/fonts/Fira_Sans_Condensed/FiraSansCondensed-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Fira_Sans_Condensed/FiraSansCondensed-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: lib/fonts/Fira_Sans_Condensed/FiraSansCondensed-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Fira_Sans_Condensed/FiraSansCondensed-RegularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: lib/fonts/Fira_Sans_Condensed/FiraSansCondensed-SemiBold.ttf
+          weight: 600
+        - asset: lib/fonts/Fira_Sans_Condensed/FiraSansCondensed-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: lib/fonts/Fira_Sans_Condensed/FiraSansCondensed-Thin.ttf
+          weight: 100
+        - asset: lib/fonts/Fira_Sans_Condensed/FiraSansCondensed-ThinItalic.ttf
+          weight: 100
+          style: italic
+    - family: FiraSansExtraCondensed
+      fonts:
+        - asset: lib/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Black.ttf
+          weight: 900
+        - asset: lib/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: lib/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-ExtraBold.ttf
+          weight: 800
+        - asset: lib/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: lib/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-ExtraLight.ttf
+          weight: 200
+        - asset: lib/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: lib/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: lib/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: lib/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-RegularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: lib/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-SemiBold.ttf
+          weight: 600
+        - asset: lib/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: lib/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Thin.ttf
+          weight: 100
+        - asset: lib/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-ThinItalic.ttf
+          weight: 100
+          style: italic
+    - family: Forum
+      fonts:
+        - asset: lib/fonts/Forum/Forum-Regular.ttf
+          weight: 400
+    - family: Gabriela
+      fonts:
+        - asset: lib/fonts/Gabriela/Gabriela-Regular.ttf
+          weight: 400
+    - family: IBMPlexMono
+      fonts:
+        - asset: lib/fonts/IBM_Plex_Mono/IBMPlexMono-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/IBM_Plex_Mono/IBMPlexMono-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/IBM_Plex_Mono/IBMPlexMono-ExtraLight.ttf
+          weight: 200
+        - asset: lib/fonts/IBM_Plex_Mono/IBMPlexMono-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: lib/fonts/IBM_Plex_Mono/IBMPlexMono-Light.ttf
+          weight: 300
+        - asset: lib/fonts/IBM_Plex_Mono/IBMPlexMono-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: lib/fonts/IBM_Plex_Mono/IBMPlexMono-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/IBM_Plex_Mono/IBMPlexMono-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: lib/fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/IBM_Plex_Mono/IBMPlexMono-RegularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: lib/fonts/IBM_Plex_Mono/IBMPlexMono-SemiBold.ttf
+          weight: 600
+        - asset: lib/fonts/IBM_Plex_Mono/IBMPlexMono-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: lib/fonts/IBM_Plex_Mono/IBMPlexMono-Thin.ttf
+          weight: 100
+        - asset: lib/fonts/IBM_Plex_Mono/IBMPlexMono-ThinItalic.ttf
+          weight: 100
+          style: italic
+    - family: IBMPlexSans
+      fonts:
+        - asset: lib/fonts/IBM_Plex_Sans/IBMPlexSans-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/IBM_Plex_Sans/IBMPlexSans-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/IBM_Plex_Sans/IBMPlexSans-ExtraLight.ttf
+          weight: 200
+        - asset: lib/fonts/IBM_Plex_Sans/IBMPlexSans-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: lib/fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf
+          weight: 300
+        - asset: lib/fonts/IBM_Plex_Sans/IBMPlexSans-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: lib/fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/IBM_Plex_Sans/IBMPlexSans-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: lib/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/IBM_Plex_Sans/IBMPlexSans-RegularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: lib/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf
+          weight: 600
+        - asset: lib/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: lib/fonts/IBM_Plex_Sans/IBMPlexSans-Thin.ttf
+          weight: 100
+        - asset: lib/fonts/IBM_Plex_Sans/IBMPlexSans-ThinItalic.ttf
+          weight: 100
+          style: italic
+    - family: IBMPlexSerif
+      fonts:
+        - asset: lib/fonts/IBM_Plex_Serif/IBMPlexSerif-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/IBM_Plex_Serif/IBMPlexSerif-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/IBM_Plex_Serif/IBMPlexSerif-ExtraLight.ttf
+          weight: 200
+        - asset: lib/fonts/IBM_Plex_Serif/IBMPlexSerif-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: lib/fonts/IBM_Plex_Serif/IBMPlexSerif-Light.ttf
+          weight: 300
+        - asset: lib/fonts/IBM_Plex_Serif/IBMPlexSerif-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: lib/fonts/IBM_Plex_Serif/IBMPlexSerif-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/IBM_Plex_Serif/IBMPlexSerif-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: lib/fonts/IBM_Plex_Serif/IBMPlexSerif-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/IBM_Plex_Serif/IBMPlexSerif-RegularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: lib/fonts/IBM_Plex_Serif/IBMPlexSerif-SemiBold.ttf
+          weight: 600
+        - asset: lib/fonts/IBM_Plex_Serif/IBMPlexSerif-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: lib/fonts/IBM_Plex_Serif/IBMPlexSerif-Thin.ttf
+          weight: 100
+        - asset: lib/fonts/IBM_Plex_Serif/IBMPlexSerif-ThinItalic.ttf
+          weight: 100
+          style: italic
+    - family: IstokWeb
+      fonts:
+        - asset: lib/fonts/Istok_Web/IstokWeb-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Istok_Web/IstokWeb-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Istok_Web/IstokWeb-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Istok_Web/IstokWeb-RegularItalic.ttf
+          weight: 400
+          style: italic
+    - family: Jura
+      fonts:
+        - asset: lib/fonts/Jura/Jura-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Jura/Jura-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Jura/Jura-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Jura/Jura-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Jura/Jura-SemiBold.ttf
+          weight: 600
+    - family: Kurale
+      fonts:
+        - asset: lib/fonts/Kurale/Kurale-Regular.ttf
+          weight: 400
+    - family: Lobster
+      fonts:
+        - asset: lib/fonts/Lobster/Lobster-Regular.ttf
+          weight: 400
+    - family: Lora
+      fonts:
+        - asset: lib/fonts/Lora/Lora-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Lora/Lora-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Lora/Lora-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Lora/Lora-RegularItalic.ttf
+          weight: 400
+          style: italic
+    - family: MPLUS1p
+      fonts:
+        - asset: lib/fonts/M_PLUS_1p/MPLUS1p-Black.ttf
+          weight: 900
+        - asset: lib/fonts/M_PLUS_1p/MPLUS1p-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/M_PLUS_1p/MPLUS1p-ExtraBold.ttf
+          weight: 800
+        - asset: lib/fonts/M_PLUS_1p/MPLUS1p-Light.ttf
+          weight: 300
+        - asset: lib/fonts/M_PLUS_1p/MPLUS1p-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/M_PLUS_1p/MPLUS1p-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/M_PLUS_1p/MPLUS1p-Thin.ttf
+          weight: 100
+    - family: MPLUSRounded1c
+      fonts:
+        - asset: lib/fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Black.ttf
+          weight: 900
+        - asset: lib/fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-ExtraBold.ttf
+          weight: 800
+        - asset: lib/fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Light.ttf
+          weight: 300
+        - asset: lib/fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Thin.ttf
+          weight: 100
+    - family: Merriweather
+      fonts:
+        - asset: lib/fonts/Merriweather/Merriweather-Black.ttf
+          weight: 900
+        - asset: lib/fonts/Merriweather/Merriweather-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: lib/fonts/Merriweather/Merriweather-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Merriweather/Merriweather-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Merriweather/Merriweather-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Merriweather/Merriweather-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: lib/fonts/Merriweather/Merriweather-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Merriweather/Merriweather-RegularItalic.ttf
+          weight: 400
+          style: italic
+    - family: Montserrat
+      fonts:
+        - asset: lib/fonts/Montserrat/Montserrat-Black.ttf
+          weight: 900
+        - asset: lib/fonts/Montserrat/Montserrat-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: lib/fonts/Montserrat/Montserrat-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Montserrat/Montserrat-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Montserrat/Montserrat-ExtraBold.ttf
+          weight: 800
+        - asset: lib/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: lib/fonts/Montserrat/Montserrat-ExtraLight.ttf
+          weight: 200
+        - asset: lib/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: lib/fonts/Montserrat/Montserrat-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Montserrat/Montserrat-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: lib/fonts/Montserrat/Montserrat-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Montserrat/Montserrat-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: lib/fonts/Montserrat/Montserrat-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Montserrat/Montserrat-RegularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: lib/fonts/Montserrat/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: lib/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: lib/fonts/Montserrat/Montserrat-Thin.ttf
+          weight: 100
+        - asset: lib/fonts/Montserrat/Montserrat-ThinItalic.ttf
+          weight: 100
+          style: italic
+    - family: MontserratAlternates
+      fonts:
+        - asset: lib/fonts/Montserrat_Alternates/MontserratAlternates-Black.ttf
+          weight: 900
+        - asset: lib/fonts/Montserrat_Alternates/MontserratAlternates-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: lib/fonts/Montserrat_Alternates/MontserratAlternates-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Montserrat_Alternates/MontserratAlternates-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Montserrat_Alternates/MontserratAlternates-ExtraBold.ttf
+          weight: 800
+        - asset: lib/fonts/Montserrat_Alternates/MontserratAlternates-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: lib/fonts/Montserrat_Alternates/MontserratAlternates-ExtraLight.ttf
+          weight: 200
+        - asset: lib/fonts/Montserrat_Alternates/MontserratAlternates-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: lib/fonts/Montserrat_Alternates/MontserratAlternates-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Montserrat_Alternates/MontserratAlternates-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: lib/fonts/Montserrat_Alternates/MontserratAlternates-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Montserrat_Alternates/MontserratAlternates-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: lib/fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Montserrat_Alternates/MontserratAlternates-RegularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: lib/fonts/Montserrat_Alternates/MontserratAlternates-SemiBold.ttf
+          weight: 600
+        - asset: lib/fonts/Montserrat_Alternates/MontserratAlternates-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: lib/fonts/Montserrat_Alternates/MontserratAlternates-Thin.ttf
+          weight: 100
+        - asset: lib/fonts/Montserrat_Alternates/MontserratAlternates-ThinItalic.ttf
+          weight: 100
+          style: italic
+    - family: NotoSans
+      fonts:
+        - asset: lib/fonts/Noto_Sans/NotoSans-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Noto_Sans/NotoSans-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Noto_Sans/NotoSans-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Noto_Sans/NotoSans-RegularItalic.ttf
+          weight: 400
+          style: italic
+    - family: NotoSerif
+      fonts:
+        - asset: lib/fonts/Noto_Serif/NotoSerif-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Noto_Serif/NotoSerif-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Noto_Serif/NotoSerif-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Noto_Serif/NotoSerif-RegularItalic.ttf
+          weight: 400
+          style: italic
+    - family: OldStandardTT
+      fonts:
+        - asset: lib/fonts/Old_Standard_TT/OldStandardTT-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Old_Standard_TT/OldStandardTT-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Old_Standard_TT/OldStandardTT-RegularItalic.ttf
+          weight: 400
+          style: italic
+    - family: OpenSans
+      fonts:
+        - asset: lib/fonts/Open_Sans/OpenSans-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Open_Sans/OpenSans-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Open_Sans/OpenSans-ExtraBold.ttf
+          weight: 800
+        - asset: lib/fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: lib/fonts/Open_Sans/OpenSans-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Open_Sans/OpenSans-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: lib/fonts/Open_Sans/OpenSans-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Open_Sans/OpenSans-RegularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: lib/fonts/Open_Sans/OpenSans-SemiBold.ttf
+          weight: 600
+        - asset: lib/fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+    - family: OpenSansCondensed
+      fonts:
+        - asset: lib/fonts/Open_Sans_Condensed/OpenSansCondensed-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Open_Sans_Condensed/OpenSansCondensed-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Open_Sans_Condensed/OpenSansCondensed-LightItalic.ttf
+          weight: 300
+          style: italic
+    - family: Oranienbaum
+      fonts:
+        - asset: lib/fonts/Oranienbaum/Oranienbaum-Regular.ttf
+          weight: 400
+    - family: Oswald
+      fonts:
+        - asset: lib/fonts/Oswald/Oswald-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Oswald/Oswald-ExtraLight.ttf
+          weight: 200
+        - asset: lib/fonts/Oswald/Oswald-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Oswald/Oswald-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Oswald/Oswald-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Oswald/Oswald-SemiBold.ttf
+          weight: 600
+    - family: Pacifico
+      fonts:
+        - asset: lib/fonts/Pacifico/Pacifico-Regular.ttf
+          weight: 400
+    - family: Pangolin
+      fonts:
+        - asset: lib/fonts/Pangolin/Pangolin-Regular.ttf
+          weight: 400
+    - family: Philosopher
+      fonts:
+        - asset: lib/fonts/Philosopher/Philosopher-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Philosopher/Philosopher-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Philosopher/Philosopher-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Philosopher/Philosopher-RegularItalic.ttf
+          weight: 400
+          style: italic
+    - family: Play
+      fonts:
+        - asset: lib/fonts/Play/Play-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Play/Play-Regular.ttf
+          weight: 400
+    - family: Podkova
+      fonts:
+        - asset: lib/fonts/Podkova/Podkova-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Podkova/Podkova-ExtraBold.ttf
+          weight: 800
+        - asset: lib/fonts/Podkova/Podkova-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Podkova/Podkova-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Podkova/Podkova-SemiBold.ttf
+          weight: 600
+    - family: Prata
+      fonts:
+        - asset: lib/fonts/Prata/Prata-Regular.ttf
+          weight: 400
+    - family: PressStart2P
+      fonts:
+        - asset: lib/fonts/Press_Start_2P/PressStart2P-Regular.ttf
+          weight: 400
+    - family: PTMono
+      fonts:
+        - asset: lib/fonts/PT_Mono/PTMono-Regular.ttf
+          weight: 400
+    - family: PTSans
+      fonts:
+        - asset: lib/fonts/PT_Sans/PTSans-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/PT_Sans/PTSans-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/PT_Sans/PTSans-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/PT_Sans/PTSans-RegularItalic.ttf
+          weight: 400
+          style: italic
+    - family: PTSansCaption
+      fonts:
+        - asset: lib/fonts/PT_Sans_Caption/PTSansCaption-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/PT_Sans_Caption/PTSansCaption-Regular.ttf
+          weight: 400
+    - family: PTSansNarrow
+      fonts:
+        - asset: lib/fonts/PT_Sans_Narrow/PTSansNarrow-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/PT_Sans_Narrow/PTSansNarrow-Regular.ttf
+          weight: 400
+    - family: PTSerif
+      fonts:
+        - asset: lib/fonts/PT_Serif/PTSerif-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/PT_Serif/PTSerif-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/PT_Serif/PTSerif-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/PT_Serif/PTSerif-RegularItalic.ttf
+          weight: 400
+          style: italic
+    - family: PTSerifCaption
+      fonts:
+        - asset: lib/fonts/PT_Serif_Caption/PTSerifCaption-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/PT_Serif_Caption/PTSerifCaption-RegularItalic.ttf
+          weight: 400
+          style: italic
+    - family: Roboto
+      fonts:
+        - asset: lib/fonts/Roboto/Roboto-Black.ttf
+          weight: 900
+        - asset: lib/fonts/Roboto/Roboto-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: lib/fonts/Roboto/Roboto-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Roboto/Roboto-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Roboto/Roboto-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Roboto/Roboto-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: lib/fonts/Roboto/Roboto-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Roboto/Roboto-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: lib/fonts/Roboto/Roboto-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Roboto/Roboto-RegularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: lib/fonts/Roboto/Roboto-Thin.ttf
+          weight: 100
+        - asset: lib/fonts/Roboto/Roboto-ThinItalic.ttf
+          weight: 100
+          style: italic
+    - family: RobotoCondensed
+      fonts:
+        - asset: lib/fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Roboto_Condensed/RobotoCondensed-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Roboto_Condensed/RobotoCondensed-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Roboto_Condensed/RobotoCondensed-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: lib/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Roboto_Condensed/RobotoCondensed-RegularItalic.ttf
+          weight: 400
+          style: italic
+    - family: RobotoMono
+      fonts:
+        - asset: lib/fonts/Roboto_Mono/RobotoMono-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Roboto_Mono/RobotoMono-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Roboto_Mono/RobotoMono-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Roboto_Mono/RobotoMono-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: lib/fonts/Roboto_Mono/RobotoMono-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Roboto_Mono/RobotoMono-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: lib/fonts/Roboto_Mono/RobotoMono-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Roboto_Mono/RobotoMono-RegularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: lib/fonts/Roboto_Mono/RobotoMono-Thin.ttf
+          weight: 100
+        - asset: lib/fonts/Roboto_Mono/RobotoMono-ThinItalic.ttf
+          weight: 100
+          style: italic
+    - family: RobotoSlab
+      fonts:
+        - asset: lib/fonts/Roboto_Slab/RobotoSlab-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Roboto_Slab/RobotoSlab-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Roboto_Slab/RobotoSlab-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Roboto_Slab/RobotoSlab-Thin.ttf
+          weight: 100
+    - family: Scada
+      fonts:
+        - asset: lib/fonts/Scada/Scada-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Scada/Scada-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Scada/Scada-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Scada/Scada-RegularItalic.ttf
+          weight: 400
+          style: italic
+    - family: SourceCodePro
+      fonts:
+        - asset: lib/fonts/Source_Code_Pro/SourceCodePro-Black.ttf
+          weight: 900
+        - asset: lib/fonts/Source_Code_Pro/SourceCodePro-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: lib/fonts/Source_Code_Pro/SourceCodePro-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Source_Code_Pro/SourceCodePro-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Source_Code_Pro/SourceCodePro-ExtraLight.ttf
+          weight: 200
+        - asset: lib/fonts/Source_Code_Pro/SourceCodePro-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: lib/fonts/Source_Code_Pro/SourceCodePro-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Source_Code_Pro/SourceCodePro-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: lib/fonts/Source_Code_Pro/SourceCodePro-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Source_Code_Pro/SourceCodePro-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: lib/fonts/Source_Code_Pro/SourceCodePro-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Source_Code_Pro/SourceCodePro-RegularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: lib/fonts/Source_Code_Pro/SourceCodePro-SemiBold.ttf
+          weight: 600
+        - asset: lib/fonts/Source_Code_Pro/SourceCodePro-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+    - family: SourceSansPro
+      fonts:
+        - asset: lib/fonts/Source_Sans_Pro/SourceSansPro-Black.ttf
+          weight: 900
+        - asset: lib/fonts/Source_Sans_Pro/SourceSansPro-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: lib/fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Source_Sans_Pro/SourceSansPro-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Source_Sans_Pro/SourceSansPro-ExtraLight.ttf
+          weight: 200
+        - asset: lib/fonts/Source_Sans_Pro/SourceSansPro-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: lib/fonts/Source_Sans_Pro/SourceSansPro-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Source_Sans_Pro/SourceSansPro-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: lib/fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Source_Sans_Pro/SourceSansPro-RegularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: lib/fonts/Source_Sans_Pro/SourceSansPro-SemiBold.ttf
+          weight: 600
+        - asset: lib/fonts/Source_Sans_Pro/SourceSansPro-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+    - family: Tinos
+      fonts:
+        - asset: lib/fonts/Tinos/Tinos-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Tinos/Tinos-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Tinos/Tinos-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Tinos/Tinos-RegularItalic.ttf
+          weight: 400
+          style: italic
+    - family: Ubuntu
+      fonts:
+        - asset: lib/fonts/Ubuntu/Ubuntu-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Ubuntu/Ubuntu-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Ubuntu/Ubuntu-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Ubuntu/Ubuntu-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: lib/fonts/Ubuntu/Ubuntu-Medium.ttf
+          weight: 500
+        - asset: lib/fonts/Ubuntu/Ubuntu-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: lib/fonts/Ubuntu/Ubuntu-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Ubuntu/Ubuntu-RegularItalic.ttf
+          weight: 400
+          style: italic
+    - family: UbuntuCondensed
+      fonts:
+        - asset: lib/fonts/Ubuntu_Condensed/UbuntuCondensed-Regular.ttf
+          weight: 400
+    - family: UbuntuMono
+      fonts:
+        - asset: lib/fonts/Ubuntu_Mono/UbuntuMono-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Ubuntu_Mono/UbuntuMono-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Ubuntu_Mono/UbuntuMono-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Ubuntu_Mono/UbuntuMono-RegularItalic.ttf
+          weight: 400
+          style: italic
+    - family: Vollkorn
+      fonts:
+        - asset: lib/fonts/Vollkorn/Vollkorn-Black.ttf
+          weight: 900
+        - asset: lib/fonts/Vollkorn/Vollkorn-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: lib/fonts/Vollkorn/Vollkorn-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Vollkorn/Vollkorn-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/fonts/Vollkorn/Vollkorn-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Vollkorn/Vollkorn-RegularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: lib/fonts/Vollkorn/Vollkorn-SemiBold.ttf
+          weight: 600
+        - asset: lib/fonts/Vollkorn/Vollkorn-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+    - family: VollkornSC
+      fonts:
+        - asset: lib/fonts/Vollkorn_SC/VollkornSC-Black.ttf
+          weight: 900
+        - asset: lib/fonts/Vollkorn_SC/VollkornSC-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Vollkorn_SC/VollkornSC-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/Vollkorn_SC/VollkornSC-SemiBold.ttf
+          weight: 600
+    - family: YesevaOne
+      fonts:
+        - asset: lib/fonts/Yeseva_One/YesevaOne-Regular.ttf
+          weight: 400
